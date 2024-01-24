@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Cursor</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div id="main" class="main">
+          <h1>JAVASCRIPT</h1>
+          <div id="cursor" class="cursor">
+
+          </div>
+     </div>
+     <script>
+          let crsr = document.querySelector('#cursor')
+          let main = document.querySelector('#main')
+
+
+          main.addEventListener('mousemove',(e)=>{
+               crsr.style.left = e.x+'px'
+               crsr.style.top = e.y+'px'
+          })
+
+     </script>
+</body>
+</html>

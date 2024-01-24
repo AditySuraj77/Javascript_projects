@@ -1,0 +1,36 @@
+body{
+     background-color: teal;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.container{
+     width: 30vw;
+     height: 40vh;
+     background-color: white;
+     margin-top: 100px;
+     border-radius: 10px;
+     position: relative;
+     overflow: hidden;
+
+}
+.container img{
+     width: 400px;
+     margin-top: 5px;
+     margin-left: 5px;
+     border-radius: 10px;
+}
+.container i{
+     color: rgb(255, 0, 0);
+     font-size: 200px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%) scale(0);
+     transition: transform, ease 0.4s;
+     opacity: 1;
+
+}
+
+

@@ -1,0 +1,84 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     background-image: url('cover.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.taskbar {
+     position: absolute;
+     bottom: 0px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     background-color: #dbedf9;
+     gap: 15px;
+     align-items: center;
+}
+
+.startmenu {
+     position: absolute;
+     bottom: 45px;
+     left: 570px;
+     opacity: 0;
+     transition: all ease-in-out 0s;
+
+}
+
+.file {
+     position: absolute;
+     background-color: #dbedf9;
+     opacity: 0;
+     width: 100%;
+     height: 93%;
+     z-index: 50;
+
+}
+
+.file img {
+     width: 20px;
+}
+
+.fileicon {
+     display: flex;
+     justify-content: end;
+     gap: 20px;
+     padding: 5px;
+     
+}
+
+
+.file p{
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     
+}
+
+.desktop{
+     display: flex;
+     flex-direction: column;
+     width: 80px;
+     gap: 20px;
+     position: absolute;
+     z-index: 100;
+
+}
+
+.desktop img:hover{
+     border: 1px solid rgb(104, 103, 103);
+}
+
+#time{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     color: royalblue;
+     position: absolute;
+     right: 20px;
+}
+
+

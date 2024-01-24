@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&family=Roboto+Slab&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html,
+body {
+     width: 100%;
+     height: 100%;
+}
+
+.navbar {
+     background-color: #f6f6ee;
+     height: 15%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 90%;
+     margin: auto;
+     padding: 0px 30px;
+
+}
+
+.navbar h1 {
+     font-family: 'Roboto', sans-serif;
+     cursor: pointer;
+}
+
+nav ul li {
+     list-style: none;
+     font-size: 20px;
+     font-family: 'Roboto Slab', serif;
+     cursor: pointer;
+}
+
+nav ul {
+     display: flex;
+     gap: 50px
+}
+
+.txt-content {
+     background-color: #f6f6ee;
+     width: 90%;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     gap: 30px;
+     padding: 20px 0px;
+
+}
+
+.txt-content p {
+     text-align: center;
+     width: 50%;
+     font-family: 'Playfair Display', serif;
+}
+
+.txt-content h1 {
+     font-size: 60px;
+     font-family: 'Playfair Display', serif;
+}
+
+.txt-content button {
+     border: none;
+     background-color: black;
+     color: white;
+     font-size: 20px;
+     padding: 10px;
+     border-radius: 50px;
+     cursor: pointer;
+}
+
+.img-tag {
+     width: 90%;
+     margin: auto;
+     overflow-x: hidden;
+}
+
+.detail {
+     width: 90%;
+     margin: auto;
+     background-color: #f6f6ee;
+     display: flex;
+     justify-content: space-between;
+     padding: 50px;
+     font-weight: lighter;
+}
+
+.left-det {
+     text-align: right;
+     padding-right: 50px;
+     width: 48%;
+     border-right: 2px solid black;
+     display: flex;
+     align-items: flex-end;
+     flex-direction: column;
+     gap: 20px;
+}
+
+.right-det {
+     width: 48%;
+
+}
+
+.left-det #line {
+     width: 50px;
+     height: 10px;
+     background-color: black;
+
+}
+.feature{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     gap:30px;
+     margin-top: 10px;
+}
+
+.feature .f-txt p{
+     margin-top: 10px;
+}
